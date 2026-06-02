@@ -143,6 +143,7 @@ main {
 .button-poster {
     display : flex;
     justify-content : center;
+    margin-trim : 15px;
 }
 
 .wa-btn,
