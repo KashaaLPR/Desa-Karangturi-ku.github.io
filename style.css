@@ -140,6 +140,11 @@ main {
     flex-wrap: wrap;
 }
 
+.button-poster {
+    display : flex;
+    justify-content : center;
+}
+
 .wa-btn,
 .download-btn {
     text-decoration: none;
