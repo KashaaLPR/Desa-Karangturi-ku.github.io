@@ -142,6 +142,7 @@ main {
 
 .wa-btn,
 .download-btn {
+    item-align : center;
     text-decoration: none;
     color: white;
     background: #2E7D32;
