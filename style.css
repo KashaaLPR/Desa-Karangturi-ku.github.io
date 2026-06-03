@@ -100,6 +100,29 @@ main {
     color: white;
     margin-bottom: 50px;
 }
+/* ================= STATISTIK DESA ================= */
+.statistik{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-top:50px;
+}
+
+.stat-card{
+    background:white;
+    padding:25px;
+    width:180px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.stat-card h3{
+    color:#2E7D32;
+    font-size:2rem;
+}
+
 /* ================= TITLE ================= */
 
 .page-title {
