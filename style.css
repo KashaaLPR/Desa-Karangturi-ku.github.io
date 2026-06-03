@@ -74,9 +74,15 @@ main {
 /* ================= HERO ================= */
 
 .hero {
-    background-image : url("background foto.png")
-    background-size : cover;
-    background-position : center;
+    height:500px;
+
+    background-image:url("img/hero.jpg");
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
     position: relative;
     text-align: center;
 }
