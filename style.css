@@ -321,10 +321,13 @@ footer {
     margin-top: 50px;
 }
 
-.unduh area {
+.unduh-area {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     gap: 25px;
+}
+.area-unduhan{
+    
 }
 /* ================= RESPONSIVE ================= */
 
