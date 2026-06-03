@@ -123,6 +123,23 @@ main {
     font-size:2rem;
 }
 
+/* ================= SAMBUTAN KEPDES ================= */
+.sambutan{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    margin-top:80px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.sambutan img{
+    width:220px;
+    border-radius:15px;
+}
+
 /* ================= TITLE ================= */
 
 .page-title {
