@@ -100,6 +100,30 @@ main {
     color: white;
     margin-bottom: 50px;
 }
+
+.hero-text h1{
+    font-size:4rem;
+    margin-bottom:15px;
+    text-shadow:0 3px 10px rgba(0,0,0,0.3);
+}
+
+.hero-text h3{
+    font-size:1.4rem;
+    font-weight:400;
+}
+
+/* ================= HERO BTN TO PROFIL ================= */
+.hero-btn{
+    display:inline-block;
+    margin-top:25px;
+    background:white;
+    color:#2E7D32;
+    padding:12px 25px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
 /* ================= STATISTIK DESA ================= */
 .statistik{
     display:flex;
