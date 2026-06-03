@@ -97,17 +97,17 @@ main {
 
 .hero-text{
     text-align:center;
-    color:white;
+    color: white;
 }
 
     .hero-text h2 {
         font-size: 2rem;
-        color: #2E7D32;
+        color: white;
     }
 
     .hero-text p {
         margin-top: 10px;
-        color: #666;
+        color: white;
     }
 
 /* ================= TITLE ================= */
