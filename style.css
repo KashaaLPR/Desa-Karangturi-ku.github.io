@@ -328,7 +328,9 @@ footer {
     padding: 25px;
     margin-top: 50px;
 }
-
+.foot{
+    display: flex;
+}
 /* ================= AREA UNDUHAN ================= */
 .unduh-area {
     display: grid;
