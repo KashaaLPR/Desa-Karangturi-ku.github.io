@@ -330,7 +330,7 @@ footer {
 }
 .foot{
     display: flex;
-    justify-content: center;
+    text-align: center;
     gap: 15px;
 }
 /* ================= AREA UNDUHAN ================= */
