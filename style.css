@@ -220,7 +220,7 @@ main {
     }
 
 /* ================= CARD ANIMATION HOME ================= */
-.card{
+.card-home{
     opacity:0;
     transform:translateY(50px);
 
@@ -229,7 +229,7 @@ main {
         transform 0.8s ease;
 }
 
-.card.show{
+.card-home.show{
     opacity:1;
     transform:translateY(0);
 }
@@ -341,6 +341,7 @@ footer {
     margin-top: 50px;
 }
 
+/* ================= AREA UNDUHAN ================= */
 .unduh-area {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
