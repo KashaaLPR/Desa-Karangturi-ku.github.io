@@ -330,6 +330,8 @@ footer {
 }
 .foot{
     display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 /* ================= AREA UNDUHAN ================= */
 .unduh-area {
