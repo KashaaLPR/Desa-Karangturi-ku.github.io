@@ -26,3 +26,28 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 });
+
+const salam = document.getElementById("salam");
+
+if (salam) {
+
+    const jam = new Date().getHours();
+
+    let pesan = "";
+
+    if (jam < 11) {
+        pesan = "Selamat Pagi";
+    }
+    else if (jam < 15) {
+        pesan = "Selamat Siang";
+    }
+    else if (jam < 18) {
+        pesan = "Selamat Sore";
+    }
+    else {
+        pesan = "Selamat Malam";
+    }
+
+    salam.textContent = pesan;
+
+}
