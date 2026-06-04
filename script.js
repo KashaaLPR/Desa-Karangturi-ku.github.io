@@ -51,37 +51,3 @@ if (salam) {
     salam.textContent = pesan;
 
 }
-
-const cards = document.querySelectorAll(".card");
-
-const observer = new IntersectionObserver((entries) => {
-
-    entries.forEach(entry => {
-
-        if(entry.isIntersecting){
-
-            entry.target.classList.add("show");
-
-        }
-
-    });
-
-});
-
-cards.forEach(card => {
-
-    observer.observe(card);
-
-});
-
-const links = document.querySelectorAll("nav a");
-
-links.forEach(link => {
-
-    if(link.href === window.location.href){
-
-        link.classList.add("active");
-
-    }
-
-});
