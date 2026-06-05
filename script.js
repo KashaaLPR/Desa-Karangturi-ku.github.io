@@ -86,3 +86,39 @@ popup.addEventListener("click", (e) => {
 
 });
 
+const cards = document.querySelectorAll(".popup-card");
+
+const popup = document.getElementById("card-popup");
+
+const popupImage =
+document.getElementById("popup-image");
+
+const popupTitle =
+document.getElementById("popup-title");
+
+const popupDescription =
+document.getElementById("popup-description");
+
+const closePopup =
+document.querySelector(".close-popup");
+
+
+cards.forEach(card => {
+
+    card.addEventListener("click", () => {
+
+        popup.style.display = "flex";
+
+        popupTitle.textContent =
+            card.dataset.title;
+
+        popupDescription.textContent =
+            card.dataset.description;
+
+        popupImage.src =
+            card.dataset.image;
+
+    });
+
+});
+
