@@ -351,7 +351,8 @@ footer {
     gap: 25px;
 }
 .area-unduhan{
-    
+    display: flex;
+    justify-content: center;
 }
 /* ================= RESPONSIVE ================= */
 
