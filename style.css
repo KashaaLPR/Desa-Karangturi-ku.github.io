@@ -418,3 +418,100 @@ footer {
 
     cursor:pointer;
 }
+
+
+/* ================= SEJARAH ================= */
+
+.sejarah-card h3{
+    color:#2E7D32;
+    margin-bottom:20px;
+}
+
+.timeline{
+    margin-top:25px;
+    border-left:4px solid #2E7D32;
+    padding-left:20px;
+}
+
+.timeline-item{
+    margin-bottom:25px;
+    position:relative;
+}
+
+.timeline-item::before{
+    content:"";
+    width:14px;
+    height:14px;
+
+    background:#2E7D32;
+
+    border-radius:50%;
+
+    position:absolute;
+    left:-29px;
+    top:5px;
+}
+
+.tahun{
+    background:#2E7D32;
+    color:white;
+
+    padding:5px 12px;
+
+    border-radius:20px;
+
+    font-weight:bold;
+
+    display:inline-block;
+
+    margin-bottom:10px;
+}
+
+/* ================= VISI MISI ================= */
+
+.visi-box{
+
+    background:#E8F5E9;
+
+    border-left:6px solid #2E7D32;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    font-size:1.2rem;
+
+    font-weight:600;
+
+    margin-bottom:30px;
+}
+
+.misi-list{
+
+    list-style:none;
+
+    padding-left:0;
+}
+
+.misi-list li{
+
+    background:#f8f9fa;
+
+    margin-bottom:12px;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    border-left:4px solid #2E7D32;
+
+    transition:0.3s;
+}
+
+.misi-list li:hover{
+
+    transform:translateX(5px);
+
+    background:#E8F5E9;
+}
+
