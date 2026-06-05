@@ -504,14 +504,4 @@ footer {
     border-radius:10px;
 
     border-left:4px solid #2E7D32;
-
-    transition:0.3s;
 }
-
-.misi-list li:hover{
-
-    transform:translateX(5px);
-
-    background:#E8F5E9;
-}
-
