@@ -18,6 +18,10 @@ body {
 
 .dasar-kegiatan{
     display: flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-top:50px;
 }
 
 /* ================= HEADER ================= */
