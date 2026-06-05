@@ -350,7 +350,7 @@ footer {
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     gap: 25px;
 }
-.area-unduhan{
+.area-unduhan-lol{
     display: flex;
     justify-content: center;
 }
