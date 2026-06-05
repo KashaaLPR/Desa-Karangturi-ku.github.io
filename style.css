@@ -16,6 +16,10 @@ body {
     color: #333;
 }
 
+.dasar-kegiatan{
+    display: flex;
+}
+
 /* ================= HEADER ================= */
 
 header {
